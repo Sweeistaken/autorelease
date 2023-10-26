@@ -30,6 +30,7 @@ outputs:
 runs:
   using: "node16"
   main: "dist/index.js"
+# https://actions-cool.github.io/github-action-branding/
 branding:
-  icon: "git-merge"
-  color: "red"
+  icon: 'git-pull-request'
+  color: 'green'
