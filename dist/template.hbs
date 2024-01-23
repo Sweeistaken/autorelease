@@ -9,8 +9,10 @@
 {{#each commits}}
 {{> commit root=@root}}
 {{/each}}
-
 {{/each}}
+{{# if md5}}
+{{md5}}
+{{/if}}
 {{> footer}}
 
 
