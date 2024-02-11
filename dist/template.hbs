@@ -1,7 +1,22 @@
 {{> header}}
+<<<<<<< HEAD
 {{# if md5}}
 {{md5}}
 {{/if}}
+=======
+
+{{#each commitGroups}}
+
+{{#if title}}
+### {{title}}
+
+{{/if}}
+{{#each commits}}
+{{> commit root=@root}}
+{{/each}}
+
+{{/each}}
+>>>>>>> parent of 6d28603 (Update template.hbs)
 {{> footer}}
 
 
